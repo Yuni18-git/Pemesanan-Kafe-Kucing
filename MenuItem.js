@@ -10,16 +10,16 @@ const MenuItem = ({ nama, harga, onTambahPesanan }) => {
   }
 
   return (
-    <View style={style.card}>
-      <Text style={style.title}>{nama}</Text>
-      <Text style={style.text}>Harga: Rp{harga.toLocaleString("id-ID")}</Text>
-      <Text style={style.text}>Jumlah: {qty}</Text>
+    <View style={styles.card}>
+      <Text style={styles.title}>{nama}</Text>
+      <Text style={styles.text}>Harga: Rp{harga.toLocaleString("id-ID")}</Text>
+      <Text style={styles.text}>Jumlah: {qty}</Text>
       <Button title={"Tambah Pesanan"} color={"#0079ca"} onPress={tambahPesanan}></Button>
     </View>
   );
 };
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
   card: {
     width: "100%",
     backgroundColor: "#e4f2f7",
