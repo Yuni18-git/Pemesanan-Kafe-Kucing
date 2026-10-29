@@ -2,7 +2,6 @@ import { StyleSheet, Text, View, Button } from "react-native";
 import React, { useState } from "react";
 
 const OrderSummary = ({ totalCount }) => {
-  const [count, setCount] = useState(0);
 
   return (
     <View style={styles.container}>
@@ -36,7 +35,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "#000",
-    fontsize: 16,
+    fontSize: 16,
     marginBottom: 8,
   },
   diskon: {

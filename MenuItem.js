@@ -12,7 +12,7 @@ const MenuItem = ({ nama, harga, onTambahPesanan }) => {
   return (
     <View style={style.card}>
       <Text style={style.title}>{nama}</Text>
-      <Text style={style.text}>Harga: {harga}</Text>
+      <Text style={style.text}>Harga: Rp{harga}</Text>
       <Text style={style.text}>Jumlah: {qty}</Text>
       <Button title={"Tambah Pesanan"} color={"#0079ca"} onPress={tambahPesanan}></Button>
     </View>
@@ -36,7 +36,7 @@ const style = StyleSheet.create({
     color: "#0079ca",
   },
   text: {
-    color: "#0000",
+    color: "#000",
     fontsize: 16,
     marginBottom: 8,
   },

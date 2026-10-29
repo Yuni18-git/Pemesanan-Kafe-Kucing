@@ -4,9 +4,9 @@ import OrderSummary from "./OrderSummary";
 import React, { useState } from "react";
 
 const DaftarMenu = [
-  { id: "1", nama: "Kopi Susu Catnip", harga: "Rp20.000" },
-  { id: "2", nama: "Matcha Paw Latte", harga: "Rp25.000" },
-  { id: "3", nama: "Croissant Ikan Tuna", harga: "Rp18.000" },
+  { id: "1", nama: "Kopi Susu Catnip", harga: 20000 },
+  { id: "2", nama: "Matcha Paw Latte", harga: 25000 },
+  { id: "3", nama: "Croissant Ikan Tuna", harga: 18000 },
 ];
 
 const App = () => {
